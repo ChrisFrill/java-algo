@@ -9,6 +9,7 @@ public class ArraysBuildingBlock {
     Integer[] arr = new Integer[10];
     Integer[] arr2 = new Integer[10];
     String[] strings = new String[10];
+    int[][] arr3 = new int[10][10];
     {
         Arrays.equals(arr, arr2);
         Arrays.sort(arr);

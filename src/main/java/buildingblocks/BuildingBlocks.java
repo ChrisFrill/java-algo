@@ -18,6 +18,7 @@ public class BuildingBlocks {
         stack.push("add");
         stack.pop();
         stack.peek();
+        stack.empty();
     }
 
     // List
@@ -33,8 +34,8 @@ public class BuildingBlocks {
         linkedList.addLast("add");
         linkedList.pollFirst();
         linkedList.pollLast();
-        linkedList.poll();
-        linkedList.pop();
+        linkedList.poll(); // returns null if empty
+        linkedList.pop(); // throws exception
         linkedList.peekFirst();
         linkedList.peekLast();
         linkedList.peek();
